@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.line {
+    /* 잘 모르겠음 왜 이걸로 해야됨? */
+    position: absolute; 
+    background-color: white;
+}
+.vertical {
+    width: 1px;
+    height: 100%;
+}
+
+.horizontal {
+    width: 100%;
+    height: 1px;
+}
+
+img {
+    position:absolute;
+    transform: translate(-50%, -50%);
+}
+
+.tag {
+    position:absolute;
+    font-size: 38px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
